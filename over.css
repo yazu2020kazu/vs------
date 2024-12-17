@@ -1,0 +1,79 @@
+/**************************
+汎用クラス
+**************************/
+body{
+
+}
+
+p {
+    color: red;
+    color: blue;
+   }
+
+.cmn_btn {
+
+}
+
+.cmn_btn a {
+    font-size: 18px;
+}
+
+p.logo {
+    width: 100%;
+}
+
+section#about {
+    padding: 10px 20px 10px 20px;
+}
+
+.pink {
+    color: pink;
+}
+
+#about h2.ttl {
+    font-family: "Noto Serif JP", serif;
+    font-weight: 700;
+    border-bottom: 1px solid;
+}
+
+#about h2.ttl {
+    font-size: 36px;
+}
+
+#work h2.ttl {
+    font-size: 24px;
+}
+/**************************
+メインエリア
+**************************/
+/* header {
+    display: flex;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p.logo {
+
+}
+
+ul.items {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+}
+
+ul.items li {
+    margin: 0 10px;
+}
+
+ul.items li a {
+    padding: 5px 20px;
+}
+
+#about {
+
+} */
+

@@ -1,0 +1,270 @@
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+/**************************
+ 下層　＞ お問い合わせページ
+***************************/
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="number"], input[type="file"],/* forIE(IEでは入力欄が表示されるため) */
+textarea {
+    background: #fff;
+    border: 1px solid;
+}
+
+.wpcf7 input,.wpcf7 span ,.wpcf7 textarea {
+    margin-left: 0;
+    border-radius: 0;
+}
+
+.wpcf7-checkbox {
+    display: inline-block;
+}
+
+.wpcf7-list-item {
+    margin: 0;
+}
+
+.content-form button, .wpcf7 .cmn_btn {
+    position: relative;
+    display: inline-block;
+}
+
+.content-form button, .wpcf7 .cmn_btn::after {
+    background: url("../images/right _wh.svg") no-repeat 50% / contain;
+    content: '';
+    font-size: 1.5em;
+    position: absolute;
+    top: calc(50% - 12px);
+    line-height: 1;
+    right: 15px;
+    font-weight: normal;
+    width: 10px;
+    height: 18px;
+}
+
+.content-form button, .wpcf7 input[type="submit"] {
+    font-size: 16px;
+    min-width: 260px;
+    border-radius: 0;
+    padding: 18px 20px;
+    margin-bottom: 0;
+}
+
+.wpcf7-spinner {
+    display: block;
+}
+ .bg {
+    background: #f1eee8;
+    padding: 85px 20px 140px;
+}
+
+ h1 {
+    background: none;
+    margin-top: 0;
+    margin-bottom: 54px;
+}
+
+ h1 span {
+    font-size: 36px;
+}
+
+ p.lead {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.882;
+    margin-bottom: 42px;
+}
+
+ form {
+    max-width: 1200px;
+}
+
+ form table {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    width: 100%;
+}
+
+ form .form_table th, .form_table td {
+    width: 100%;
+    display: block;
+}
+
+ form .form_table th {
+    font-size: 17px;
+    padding: 0 0 0 7px !important;
+    margin-bottom: 6px;
+}
+
+.form_table th, .form_table td {
+    padding: 0 0 0 7px;
+}
+
+.form_table tr:not(:last-of-type) td {
+    margin-bottom: 37px;
+}
+
+ form .form_table input {
+    padding: 15px 16px;
+    font-size: 16px;
+}
+
+ form .require,.any {
+    border-radius: 0;
+    font-size: 11px;
+}
+
+ form .require {
+    background: #e60012;
+    margin: 0 18px;
+}
+
+ p.check_wrap {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+ span.check_txt {
+    margin-bottom: 31px;
+    display: inline-block;
+}   #check input[type="checkbox"] {
+        position: absolute;
+        opacity: 0;
+        /*既存のチェックボックスを見えなくする*/
+    }
+
+    #check span.wpcf7-list-item.first.last::before {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        border: 1px solid;
+        top: calc(50% - 10px);
+        left: 0;
+        border-radius: 50%;
+    }
+
+    .wpcf7 #check span {
+        padding-left: 14px;
+    }
+
+    #check input[type="checkbox"]:checked + .wpcf7-list-item-label:after {
+        /*チェックアイコン*/
+        content: "\f00c";
+       font-family: "Font Awesome 5 Free";
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        width: 20px;
+        height: 20px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+    }
+
+@media (max-width: 750px) {
+    /**************************
+ 下層　＞ お問い合わせページ
+***************************/.wpcf7 input,.wpcf7 span ,.wpcf7 textarea {
+        margin-left: 0;
+        border-radius: 0;
+    }
+
+    .wpcf7-checkbox {
+        display: inline-block;
+    }
+
+    .wpcf7-list-item {
+        margin: 0;
+    }
+
+    .content-form button, .wpcf7 input[type="submit"] {
+        font-size: 16px;
+        min-width: 260px;
+        border-radius: 0;
+        padding: 18px 20px;
+        margin-left: auto;
+    }
+
+     .bg {
+        background: #f1eee8;
+        padding: 30px 15px 20px;
+    }
+
+     h1 {
+        background: none;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+     h1 span {
+        font-size: 24px;
+    }
+
+     p.lead {
+        font-size: 15px;
+        text-align: left;
+        line-height: 1.66667;
+        margin-bottom: 35px;
+    }
+
+     form {
+        max-width: 1200px;
+    }
+
+     form table {
+        max-width: 700px;
+        margin: 0 auto 15px;
+        width: 100%;
+    }
+
+     form .form_table th, .form_table td {
+        width: 100%;
+        display: block;
+    }
+
+     form .form_table th {
+        font-size: 15px;
+        padding: 0 0 0 7px !important;
+        margin-bottom: 6px;
+    }
+
+    .form_table th, .form_table td {
+        padding: 0 0 0 7px;
+    }
+
+    .form_table tr:not(:last-of-type) td {
+        margin-bottom: 35px;
+    }
+
+     form .form_table input {
+        padding: 15px 16px;
+        font-size: 15px;
+    }
+
+     form .require,.any {
+        border-radius: 0;
+        font-size: 15px;
+    }
+
+     form .require {
+        background: #e60012;
+        margin: 0 10px 0 0;
+        font-size: 12px;
+    }
+
+     p.check_wrap {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+     span.check_txt {
+        margin-bottom: 30px;
+        text-align: left;
+        line-height: 1.6667;
+    }
+
+    .content-form button, .wpcf7 .cmn_btn::after {
+        top: calc(50% - 22px);
+    }
+}
